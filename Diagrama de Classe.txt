@@ -1,0 +1,14 @@
++---------------------+           +---------------------+          +----------------------+
+|       Cliente       |           |       Projeto       |          |      Atividade       |
++---------------------+           +---------------------+          +----------------------+
+| - id: Integer       |1          | - id: Integer       |1         | - id: Integer        |
+| - nome: String      |<----------| - nome: String      |<---------| - nome: String       |
++---------------------+           | - descricao: String |          | - descricao: String  |
+                                  | - cliente: Cliente  |          | - projeto: Projeto   |
+                                  +---------------------+          +----------------------+
+
+
+Relacionamentos
+
+- Um Cliente pode ter vários Projetos (relacionamento de 1 para muitos).
+- Um Projeto pode ter múltiplas Atividades (relação de 1 para muitas).
